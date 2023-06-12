@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-image: url('img/white-landscape.jpg');
+   font-family: 'Ubuntu', sans-serif;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-size: cover;
+   background-position: center center;
+}
+
+h1 {
+   font-size: 4rem;
+   margin-top: -15rem;
+   font-weight: 400;
+}
+
+.countdown-container {
+   display: flex;
+
+}
+
+.big-text {
+   font-size: 6rem;
+   line-height: 1;
+   margin: 0 2rem;
+   font-weight: bold;
+}
+
+.countdown-el {
+   text-align: center;
+}
+
+.countdown-el span {
+   font-size: 1.5rem;
+}
